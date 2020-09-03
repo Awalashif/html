@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.container{
+    width: 90%;
+    max-width: 1355px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* header */
+#top-area{
+    background: url(../image/home-banner.jpg) no-repeat center bottom/cover;
+    height: 100vh;
+}
+/* main header */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+/* navigation */
+.navigation{
+    display: flex;
+}
+.navigation .menu-area ul li{
+    display: inline-block;
+}
+
+.navigation .menu-area ul li a{
+    font-family: 'Rubik', sans-serif;
+    color: #002347;
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* search area */
+.search-area a{
+    color: #002347;
+}
+
+/* hero */
+.hero{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
